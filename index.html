@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -208,3 +209,215 @@
   </script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mayank Meena - DevOps Engineer & Full Stack Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Reset & Box Sizing */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; overflow-x: hidden; }
+
+    /* Canvas Background */
+    #bgCanvas { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; display: block; }
+
+    /* Base Styles */
+    body { font-family: 'Roboto', sans-serif; line-height: 1.6; color: #eee; background: #000; }
+    nav { background: rgba(0,0,0,0.7); padding: 1rem; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 5px rgba(0,0,0,0.5); }
+    nav .container { display: flex; justify-content: space-between; align-items: center; max-width: 1000px; margin: auto; }
+    nav .logo { color: #fff; font-size: 1.5rem; font-weight: 700; text-decoration: none; }
+    nav ul { list-style: none; display: flex; }
+    nav ul li { margin-left: 1rem; }
+    nav ul li a { color: #eee; text-decoration: none; font-weight: 500; }
+    @media (max-width: 600px) { nav ul { display: none; } }
+
+    /* Sections */
+    section { padding: 4rem 0; }
+    .container { max-width: 1000px; margin: auto; padding: 0 1rem; }
+
+    /* Hero */
+    .hero { text-align: center; padding: 8rem 1rem 6rem; }
+    .hero h1 { font-size: 3rem; margin-bottom: 0.5rem; color: #fff; }
+    .hero p { font-size: 1.2rem; color: #ccc; }
+
+    /* Headings */
+    h2 { font-size: 2rem; margin-bottom: 1rem; color: #71CBE0; }
+
+    /* Text */
+    p { color: #ddd; max-width: 800px; margin: auto 0; }
+
+    /* Cards */
+    .card { background: rgba(255,255,255,0.1); border-radius: 0.5rem; box-shadow: 0 2px 5px rgba(0,0,0,0.5); padding: 1.5rem; margin-bottom: 1.5rem; color: #eee; }
+    .card ul { list-style: disc inside; margin-top: 0.5rem; }
+
+    /* Lists */
+    ul.skills { display: flex; flex-wrap: wrap; list-style: none; }
+    ul.skills li { background: rgba(113,203,224,0.2); margin: 0.5rem; padding: 0.5rem 1rem; border-radius: 2rem; font-size: 0.9rem; color: #71CBE0; }
+
+    /* Contact */
+    .contact { text-align: center; }
+    .contact a { color: #71CBE0; text-decoration: none; font-weight: 500; }
+  </style>
+</head>
+<body>
+  <canvas id="bgCanvas"></canvas>
+  <nav>
+    <div class="container">
+      <a href="#" class="logo">Mayank Meena</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#college">College</a></li>
+        <li><a href="#internship">Internship</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Mayank Meena</h1>
+      <p>DevOps Engineer & Full Stack Developer</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Passionate DevOps Engineer skilled in containerization, CI/CD pipelines, and cloud infrastructure. I thrive on automating workflows and delivering scalable, high-performance solutions.</p>
+    </div>
+  </section>
+
+  <section id="college">
+    <div class="container">
+      <h2>College</h2>
+      <div class="card">
+        <h3>B.Tech in Computer Science &amp; Engineering (IoT)</h3>
+        <p>IPS Academy Institute of Engineering and Science, Indore<br>Expected Completion: 2025</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="internship">
+    <div class="container">
+      <h2>Internship</h2>
+      <div class="card">
+        <h3>Web Development Intern | Amstech Incorporation Pvt. Ltd., Indore</h3>
+        <p>Jan 2024 – Nov 2024</p>
+        <ul>
+          <li>Developed frontend interfaces using HTML, CSS, and JavaScript.</li>
+          <li>Integrated SQL databases for dynamic data management.</li>
+          <li>Assisted in deploying web applications on AWS cloud infrastructure.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="card">
+        <h3>Static Website Deployment</h3>
+        <ul>
+          <li>Designed and implemented CI/CD pipeline using GitHub Actions.</li>
+          <li>Containerized website with Docker; deployed on AWS EC2 via Terraform.</li>
+          <li>Configured CloudWatch for monitoring; ensured zero downtime with Jenkins.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Docker-Based Web Application Deployment</h3>
+        <ul>
+          <li>Containerized web app and deployed using Docker Compose.</li>
+          <li>Automated build, test, and deployment with Jenkins pipelines.</li>
+          <li>Managed source code with Git and GitHub Actions.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>AWS Monitoring &amp; Alerting System</h3>
+        <ul>
+          <li>Configured CloudWatch alarms for EC2 performance metrics.</li>
+          <li>Implemented SNS for automated notifications.</li>
+          <li>Built custom dashboards for real-time health monitoring.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <div class="container">
+      <h2>Certifications</h2>
+      <div class="card"><h3>AWS Cloud Practitioner Essentials | AWS Academy</h3></div>
+      <div class="card"><h3>AWS Certified Solutions Architect – Associate | AWS Academy</h3></div>
+      <div class="card"><h3>AWS Machine Learning Foundation | AWS Academy</h3></div>
+      <div class="card"><h3>In Progress: AWS Solutions Architect – Professional</h3></div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>AWS EC2</li><li>AWS S3</li><li>CloudWatch</li><li>IAM</li>
+        <li>Docker</li><li>Kubernetes</li><li>Terraform</li><li>Jenkins</li><li>GitHub Actions</li>
+        <li>CI/CD Pipelines</li><li>Shell Scripting</li><li>Monitoring &amp; Logging</li>
+        <li>Python</li><li>SQL</li><li>Git</li><li>GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:mayankmeema9977@gmail.com">mayankmeema9977@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/mayank-meena-10a109209" target="_blank">linkedin.com/in/mayank-meena-10a109209</a></p>
+    </div>
+  </section>
+
+  <script>
+    // Smooth scroll
+    document.querySelectorAll('nav ul li a').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        document.querySelector(link.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+
+    // Canvas animation: Stars, Solar System & Shooting Stars
+    const canvas = document.getElementById('bgCanvas');
+    if (canvas.getContext) {
+      const ctx = canvas.getContext('2d');
+      let stars = [], planets = [], comets = [];
+
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        initStars(); initPlanets(); initComets();
+      }
+      window.addEventListener('resize', resize);
+      resize();
+
+      function initStars() { stars = []; for (let i = 0; i < 200; i++) stars.push({ x: Math.random()*canvas.width, y: Math.random()*canvas.height, r: Math.random()*1.5, flicker: Math.random()*0.05 }); }
+      function initPlanets() { const cx = canvas.width/2, cy = canvas.height/2; planets = [{ orbit:60, size:8, color:'#f4d35e', angle:0, speed:0.02 },{ orbit:90, size:12, color:'#ee964b', angle:0, speed:0.015 },{ orbit:130, size:14, color:'#5da081', angle:0, speed:0.01 },{ orbit:170, size:10, color:'#ee6c4d', angle:0, speed:0.008 }]; planets.forEach(p => { p.cx = cx; p.cy = cy; }); }
+      function initComets() { comets = []; for (let i = 0; i < 5; i++) comets.push({ x: Math.random()*canvas.width, y: Math.random()*canvas.height/2, vx:2+Math.random()*2, vy:1+Math.random()*1, length:80 }); }
+
+      function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        stars.forEach(s => { s.r += (Math.random()-0.5)*s.flicker; s.r = Math.max(0.5,Math.min(1.5,s.r)); ctx.beginPath(); ctx.arc(s.x, s.y, s.r, 0, Math.PI*2); ctx.fillStyle = 'rgba(255,255,255,0.8)'; ctx.fill(); });
+        const cx = canvas.width/2, cy = canvas.height/2;
+        ctx.beginPath(); ctx.arc(cx, cy, 20, 0, Math.PI*2); ctx.fillStyle = '#ffb703'; ctx.fill();
+        planets.forEach(p => { ctx.beginPath(); ctx.arc(p.cx, p.cy, p.orbit, 0, Math.PI*2); ctx.strokeStyle = 'rgba(255,255,255,0.1)'; ctx.stroke(); p.angle += p.speed; const x = p.cx + p.orbit*Math.cos(p.angle), y = p.cy + p.orbit*Math.sin(p.angle); ctx.beginPath(); ctx.arc(x, y, p.size, 0, Math.PI*2); ctx.fillStyle = p.color; ctx.fill(); });
+        comets.forEach(c => { c.x += c.vx; c.y += c.vy; if (c.x>canvas.width||c.y>canvas.height) c.x=-c.length, c.y=Math.random()*canvas.height/2; ctx.beginPath(); for (let i=0; i<c.length; i++){ const t = i/c.length; ctx.globalAlpha = 1 - t; ctx.fillStyle = 'white'; ctx.fillRect(c.x - c.vx*i/2, c.y - c.vy*i/2, 2, 2);} ctx.globalAlpha = 1; });
+        requestAnimationFrame(draw);
+      }
+      draw();
+    } else console.error('Canvas not supported');
+  </script>
+</body>
+</html>
+>>>>>>> 503723a52fb98a100efc680c44dbb2068d38947a
